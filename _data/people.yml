@@ -1,0 +1,23 @@
+- name: Jim Jagielski
+  type: board
+  title: Board President
+  company: Red Hat Inc.
+  company-link: "http://redhat.com"
+  short: jimjag
+
+- name: Tony Hey
+  type: board
+  title: Board Vice President
+  short: they
+  company: Microsoft
+  company-link: "http://microsoft.com"
+
+- name: Erynn Petersen
+  type: staff
+  title: Executive Director
+  short: epetersen
+
+- name: Eric Schultz
+  type: staff
+  title: Developer Advocate
+  short: eschultz
