@@ -5,7 +5,9 @@ group: navigation
 permalink: /galleries/
 navnum: 2
 ---
+<h2>Project Organization</h2>
 
+<p>Outercurve projects are "collected" together into Galleries. Just as a museum has collections of art grouped within a theme, so too does the Foundation. Galleries are “sponsored” by companies that provide the foundation funding to invest in building out the collection within a specific gallery.</p>
 
 {% assign galleries = site.pages | where: "layout", "gallery"%}
 
@@ -17,4 +19,4 @@ navnum: 2
   <div><strong>{{num_in_gallery}} projects</strong></div>
   {{gallery.content}}
 
-{% endfor%}
+{% endfor %}

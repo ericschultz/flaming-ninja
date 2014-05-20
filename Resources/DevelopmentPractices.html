@@ -1,0 +1,140 @@
+--- Title: Outercurve Development Practices ---
+
+<h2>Outercurve Foundation Project Practices</h2> 
+<p>The Outercurve Foundation manages a software intellectual property process for open source software projects that involves project committers, inbound contributions and their contributors, and outbound licenses. The process is linked to a project's software development practices (e.g. version control, issue tracking). The Foundation doesn't dictate a project's software development or community practices, but relies on the project leadership to demonstrate they have sufficient experience during the project proposal phase, and additionally provides mentors for projects as needed. The following sections describe practices and guidance for Outercurve Foundation open source projects.</p>
+<p><a href="#committers">Committers in Outercurve Projects</a>
+    <br /> <a href="#significant">Guidance on Significant Contributions</a>
+    <br /> <a href="#contributions">The Source of Contributions</a>
+    <br /> <a href="#copyrights">The Copyright and License Notice</a>
+    <br /> <a href="#agreements">Assignment Agreements and Contribution License Agreements</a>
+</p>
+<p>
+    <a name="committers">
+        <h2>Committers in Outercurve Projects</h2> 
+    </a>
+</p>
+<p>An open source software project is only as good as its committers. Committers provide leadership and direction to their projects. Committers create the software but are also responsible for the discipline and quality of the software. The Outercurve Foundation indemnifies project committers.</p>
+<p>For the benefits conferred with being a committer comes a set of responsibilities.</p>
+<ul>
+    <li><strong>A committer has the ability to "commit" code to the project's development branches in the project's software repositories.</strong> Traditionally this mean the developer "has write access to the code repositories" of a subversion/CVS-based project. With more modern distributed version control systems this also supports the idea that the developer "has the ability to accept pull requests into the repository" of a git/bazaar based project. For modern distributed version control systems, a project committer is an upstream consumer of pull requests, and the highest upstream producer or publisher of the project's repositories.</li>
+    <li><strong>Initial project committers are part of the project initiation and named in the project proposal. </strong> These developers are essentially grandfathered into the project.</li>
+    <li><strong>Becoming a committer is earned by frequent valuable contribution to the project. </strong> These contributors have demonstrated the discipline and good judgement that the project wants in its development leadership.</li>
+    <li><strong>Committers protect the project from surprises.</strong> Committers care about the project, the orderliness of the software, and the cleanliness of the project's IP practices.</li>
+    <li><strong>A contributor is promoted to being a committer by the project manager according to the rules each project uses for promotion. </strong> For example, this could be the project manager's discretion. It could also be a more formal sponsorship with an existing committer nominating a contributor and a vote by the other project committers. While the latter example is clearly a more meritocratic process, the real requirements are:
+        <ul>
+            <li>Each project manager needs to document their promotion procedures however briefly. These procedures should be published on the project site somewhere obvious.</li>
+            <li>The process of promoting a contributor to committer needs to be transparent, so project members understand who and how. Project forums or email lists would be a fine place to capture this discussion, or on the project site/wiki.</li>
+            <li>The promotion needs to be recorded with the Foundation so that the Foundation knows who has committer privileges (and likewise who the Foundation is indemnifying).</li>
+            <li>A prominent list of committers on the project site would be a good thing to promote.</li>
+        </ul>
+    </li>
+</ul>
+<p>
+    <a name="significant">
+        <h2>Guidance on Significant Contributions</h2> 
+    </a>
+</p>
+<p>Contributions are the life blood of any open source project and the Outercurve Foundation helps projects maintain the intellectual property of the software they create. Projects are generally started with an assignment of rights to an existing project's software. From there on out, the project encourages people in its community to contribute changes and bug fixes to evolve the software. [Please see the section of Project Practices on <a href="#agreements">Assignment Agreements and Contribution License Agreements</a> for detail about the agreements themselves and the process the Outercurve Foundation uses to manage the documents.]</p>
+<p>The IP rights associated with contributions need to be properly managed so there is always clear provenance to the project software. Outercurve Foundation projects either get a license from contributors outside of the project's immediate committers or an assignment of rights depending upon how the individual project wishes to organize itself.</p>
+<p>A challenge for project committers is determining what constitutes a contribution that would require that the contributor sign a contributor agreement. This really has to do with the question of when a patch needs to be considered a "work" under copyright law. The following guidelines are offered:</p>
+<ul>
+    <li><strong>Length:</strong> A sufficiently short patch does not require additional paperwork from a contributor. No court has defined what "short" means, but many projects accept from 25-50 lines as a guideline, and so does the Outercurve Foundation.</li>
+    <li><strong>Context: </strong> The context of a patch can make a lot of difference. A reformatting of the code base may touch many many lines, but make no substantive change to the code as a "work" for purposes of copyright. Renaming variables, functions, etc. is also not a "work" under copyright law. But a very short but creative or inventive subroutine may very clearly be more than a simple patch and should give the committer pause to consider getting a contributor agreement in place.</li>
+    <li><strong>Ideas: </strong> Copyright is concerned with protecting the expression, and not ideas. Consider a contribution to the project that is a good description of a solution (but not yet code). If the description is incorporated into the source code comments, it might be a "work", but reading the description (in a project email thread or forum) and using the information it contains to write code would not constitute the copying of the work.</li>
+</ul>
+<p>The best guidance for committers is to err on the side of caution. Discuss the proposed contribution with other committers on the project. When in doubt, request a contributor agreement.</p>
+<p>Contributor agreements are associated with the contributor for all of their contributions as long as their employment status doesn't change. Any contributor that has signed a contribution agreement, but later changes employment status (e.g. graduates, changes employer, reaches the age of majority or consent if they were previously younger) should sign a new contribution agreement.</p>
+<p>
+    <a name="contributions">
+        <h2>The Source of Contributions</h2> 
+    </a>
+</p>
+<p>As part of a project's IP handling practices, the channel through which a contribution arrives is as important as ensuring the change is managed in the source versioning system, and significant contributions are associated with contribution agreements.</p>
+<p>The contribution channel needs to be audited and archived, so acceptable sources include:</p>
+<ul>
+    <li>An entry in the project's issue tracking system. The patch should be appended to the issue entry. If an issue doesn't exist, it should be created and the patch appended to it.</li>
+    <li>An email in an email distribution list for contributions. This might be the developer discussion list or a separate discussion list set aside strictly for contributions in the form of a patch or pull request.</li>
+</ul>
+<p>Each project should have a consistent channel for contributions. While the channel may change over the evolution of the project, it is best that there is exactly one way for contributions to be tracked at any one time.</p>
+<p>
+    <a name="copyrights">
+        <h2>The Copyright and License Notice</h2> 
+    </a>
+</p>
+<p>Outercurve Foundation projects are protected by copyright. Initial project software is assigned to the Foundation, and subsequent project contributors either license their copyright or assign it for their contributions to the Foundation. Each project is licensed under an open source software license that has been approved by the Open Source Initiative.</p>
+<p>Every project should have a file at the root of the source tree and any distributions called LICENSE[.TXT] that contains a copyright line and all the licenses associated with the project. The .TXT extension is optional.</p>
+<p>The file begins with the copyright notification.</p>
+<blockquote> <em>Copyright (c) 20nn, The Outercurve Foundation. The software is licensed under the (the "License"); you may not use the software except in compliance with the License.</em> 
+</blockquote>
+<p>Note:</p>
+<ul>
+    <li>The year is the first year of publication. It does not need maintaining and updating.</li>
+    <li>The notice can apply to a compilation as well as code, and Outercurve Foundation owns the compilation, so one notice in favor of the foundation covers all of it.</li>
+</ul>
+<p>The license is then included in LICENSE.TXT. Do this two ways, first by pointing to the online version of the license at the OSI website, and then finish by including the text of the license.</p>
+<p>So the structure of the LICENSE.TXT file should be:</p>
+<ul>
+    <li>Outercurve Foundation copyright line and license reference</li>
+    <li>A pointer to the license at the OSI website</li>
+    <li>The text of the license.</li>
+</ul>
+<p>The template for the LICENSE.TXT file:</p>
+<blockquote> <code> Copyright (c) 20nn, The Outercurve Foundation. <br /> This software is released under the Apache License 2.0 (the "License"); you may not use the software except in compliance with the License. <br /> <br /> The text of the Apache License 2.0 can be found online at:<br /> http://www.opensource.org/licenses/apache2.0.php <br /> <br /> &lt;text of Apache License 2.0&gt; </code> 
+</blockquote>
+<h3>Additional Copyrights and Notices</h3> 
+<p>Project's may have additional copyright notices and credits that need to be captured. These notices will be placed in a file at the root of the distribution called CREDITS[.TXT].</p>
+<p>If a contributor licenses an entire file to a project and has a copyright notice in it, then do not remove any notice they might have placed there assuming it is accurate. Add the contributor's copyright notice to the CREDITS.TXT file.</p>
+<p>If your project contains or is a derivative work of any third party libraries (code developed outside of the project and under a separate license), you should include reference to it in the CREDITS.TXT file.</p>
+<p>Some legal jurisdictions support the ideas of authors moral rights. If you wish to include notices from authors or a list of contributors, etc., this text can be added to the CREDITS.TXT file.</p>
+<p>So the structure of the CREDITS.TXT file should be:</p>
+<ul>
+    <li>Outercurve Foundation copyright line and license reference</li>
+    <li>Any other copyright notices by author/contributor</li>
+    <li>Any third-party library references</li>
+    <li>Any additional notices (e.g. asserting author's moral rights or listing contributors)</li>
+</ul>
+<p>The template for the CREDITS.TXT file:</p>
+<blockquote> <code> Copyright (c) 20nn, The Outercurve Foundation. <br /> This software is released under the Apache License 2.0 (the "License"); you may not use the software except in compliance with the License. You can find a copy of the License in the file LICENSE[.TXT] accompanying this file. <br /> <br /> Additional Copyrights:<br /> The compound template library was contributed by Irwin Michael Alsoadev, Copyright (c) 2010, Irwin Michael Alsoadev <br /> <br /> Additional Libraries:<br /> This software includes or is derivative of works distributed under the licenses listed below. The full text for most of the licenses listed below can be found in the LICENSE.txt file accompanying each work. The original copyright notices have been preserved within the respective files and or packages. Please refer to the specific files and/or packages for more detailed information about the authors, copyright notices, and licenses. <br /> <br /> Fluent NHibernate<br /> -----------------<br /> Website: http://fluentnhibernate.org/<br /> Copyright: Copyright (c) 2008-2009 James Gregory and contributors<br /> License: New BSD<br /> <br /> <br /> Additional Notices:<br /> The software was originally conceived and created by I.M Adeveloper and Professor Plum of the University of New South Canada. [Other contributors to the project include:<br /> &lt;a list of people&gt;] </code> 
+</blockquote>
+<h3>Notices in Files</h3> 
+<p>Copyright notices are encouraged, but you do not need to insert one in every source file in the tree. The copyright notice in the LICENSE.TXT file can cover multiple source files. Notices that apply to individual files should be retained in those files. You may wish to include them, and the following is a reasonable and short example.</p>
+<blockquote> <code>Copyright (c) 20nn, The Outercurve Foundation. <br /> This software is released under [name of your project license]. The license and further copyright text can be found in the file LICENSE.TXT at the root directory of the distribution.</code> 
+</blockquote>
+<p>If a contributor licenses their contribution to the Foundation and has a copyright notice, leave the contributor's notice in place. Add the following text to the file head.</p>
+<blockquote> <code>Copyright (c) 20nn, The Outercurve Foundation. <br /> This software is released under [name of your project license]. The license and further copyright text can be found in the file LICENSE.TXT at the root directory of the distribution. <br /> <br /> This file was licensed to the Outercurve Foundation under one or more contributor license agreements. <br /> <br /> &lt;Contributor's copyright notice&gt;<br /> </code> 
+</blockquote>
+<p>
+    <a name="agreements">
+        <h2>Assignment Agreements and Contribution License Agreements</h2> 
+    </a>
+</p>
+<p>The free and open source software world has a variety of legal opinions and practices on whether software contributions should be assigned or licensed or neither into a software project collaborative community. Some believe in assignment of all the rights under copyright (e.g. the Free Software Foundation), while others believe a license of rights under copyright is sufficient (e.g. the Apache Software Foundation). Still others feel the necessary rights are embodied in their open source license and membership agreements (e.g. the Eclipse Foundation). There are rationale reasons for each position and practice.</p>
+<p>The Outercurve Foundation allows projects to determine how they wish to proceed using either assignment, licensing, or a combination of both. Most projects in Foundation galleries begin with an initial assignment of the software copyright to the Outercurve Foundation, and then use contribution license agreements (CLA) for all significant contributions from that point forward.</p>
+<p>Copies of the Outercurve Foundation agreements can be found here:</p>
+<ul>
+    <li><a href="../../../../../Portals/0/docs/Outercurve%20Foundation%20Assignment%20Agreement%20%28editable%29.pdf">Outercurve Assignment Agreement (PDF)</a>
+    </li>
+    <li><a href="../../../../../Portals/0/docs/Outercurve%20Foundation%20Contribution%20Agreement%20%28editable%29.pdf">Outercurve Contribution License Agreement (PDF)</a>
+    </li>
+</ul>
+<p>Please note these PDF versions of the agreements are for reading purposes only. Please do not submit these forms, as the Outercurve Foundation uses an electronic signing process for e-signatures and email-based process flow.</p>
+<p><strong>For contribution license agreements</strong> the process works as follows:</p>
+<ul>
+    <li>A project committer will email <a href="mailto:contributions@outercurve.org">contributions@outercurve.org</a> the email address of a contributor needing to sign a contribution license agreement for a significant contribution.</li>
+    <li>Foundation staff will send an email to the contributor's email address to determine if we need to send the 2-signature or 3-signature agreement.</li>
+    <li>The 2-signature CLA is between the contributor and the Outercurve Foundation. A 3-signature CLA may be required because a contributor is licensing their contributions to the Outercurve Foundation, and one of the terms states that this is the contributors original work and that they have the right to grant the Foundation the license. In some cases, a contributor's employer or academic institution may hold those rights. This is typically outlined in an employment agreement. If the contributor does not have the complete rights to sign the license, the Founation will need the additional signature of the other rights holder. If the contributor is working on their own behalf, but are under the age of consent or majority under applicable law, then a legal guardian must sign as the second signature.</li>
+    <li>Once Foundation staff have a reply, they will set up the e-signing envelop chain from either the 2-signature or the 3-signature template, and set the process in motion.</li>
+    <li>Once the document is fully executed, Foundation staff (a) file the document, and (b) send the fully executed PDF to the committer that requested the agreement, the licensor, and the secondary licensor if applicable.</li>
+</ul>
+<p><strong>For assignment agreements</strong> starting a project:</p>
+<ul>
+    <li>The Gallery Manager will email <a href="mailto:contributions@outercurve.org">contributions@outercurve.org</a> the email address of a assignor needing to sign an agreement.</li>
+    <li>Foundation staff set up the e-signing envelop chain for the assignment agreement, and set the process in motion.</li>
+    <li>The assigner does need to attach the file list of software being assigned to the Foundation when they sign the form. This can be a PDF or text file. The project leader should generate the list and ensure the signing authority has the list when they are ready to sign.</li>
+    <li>Once the document is fully executed, Foundation staff (a) file the document, and (b) send the fully executed PDF to the assigner and project leader.</li>
+</ul>
+<p>The Foundation has had occasions when there is more than one assigning signature required. Legally, two (or more) individual forms, one from each assignor, is sufficient. For the file list, if it all pertains to the same set of files that have been jointly owned previously, the Gallery Manager should co-ordinate which of the assignors will attach the list, and others should attach a simple statement that points to the assignor attaching the list.</p>
+<h3>Agreement Document IDs</h3> 
+<p>The Outercurve Foundation presently uses DocuSign as the e-signature system. When discussing a particular agreement that is in-process, use the Envelop ID to refer to that particular document. Docusign works on the idea that the system will send around an "envelop" that contains a document and will flow through a series of signing events. Each envelop has a long identifier that looks like the following example:</p>
+<blockquote>DocuSign Envelope ID: 63182334-19CD-4A4F-8B88-9A23706D615B</blockquote>
+<p>This appears on the agreement to be signed in the document header. (It unfortunately doesn't appear in the email containing the signing URL, just the document itself.) Use the last four characters of the ID to identify documents for the purposes of discussion, e.g. *615B in the case above. When there are a few documents pertaining to the same project all in motion, especially different types of documents at the beginning of a project, using envelop ids simplifies discussions dramatically.</p>

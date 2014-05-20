@@ -6,21 +6,15 @@ title: Outercurve Foundation
 {% include JB/setup %}
 <div class="row">
   <div class="col-md-6 alt-gutter">
+      
     <div class="homepage-block welcome-block">
-
+      <div><i class="the-icons icon-contract"></i></div>
       <div class="welcome-title">Welcome to Outercurve!</div>
       <p>Outercurve Foundation provides the operational and back office support
       to allow developers to focus on writing great code</p>
     </div>
-    <div class="homepage-block twitter-block">
-      <a class="twitter-timeline"  href="https://twitter.com/Outercurve" data-theme="light"
-        data-widget-id="281241409456046080">Tweets by @Outercurve</a>
-    <script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-    </script>
-    </div>
-  </div>
-  <div class="col-md-6 alt-gutter">
+      </div>
+    <div class="col-md-6 alt-gutter">
     <div class="homepage-block calltoaction-block">
      <div class="calltoaction-section">
        <div><i class="the-icons icon-rocket"></i></div>
@@ -31,9 +25,21 @@ title: Outercurve Foundation
           <span>Join a Project</span>
       </div>
     </div>
-
-    <div class="homepage-block news-block">
-        <div class="header"><img src="{{BASE_PATH}}/img/newsheader.png"/></div>
+        </div>
+    
+        <div class="col-md-6 alt-gutter">
+    <div class="homepage-block twitter-block">
+        <div><i class="the-icons icon-ion-social-twitter"></i></div>
+      <a class="twitter-timeline"  href="https://twitter.com/Outercurve" data-theme="light"
+        data-widget-id="281241409456046080">Tweets by @Outercurve</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+    </div>
+          </div>
+   <div class="col-md-6 alt-gutter">
+       <div class="homepage-block news-block">
+        <div class="header"><i class="the-icons icon-newspaper"></i></div>
 
         {% for post in site.posts  %}
         <div class="homepage-newspost">
@@ -45,5 +51,8 @@ title: Outercurve Foundation
         {% endfor %}
 
     </div>
-  </div>
+       </div>
+  
+    
+  
 </div>

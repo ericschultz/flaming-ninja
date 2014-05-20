@@ -1,4 +1,14 @@
 ---
-layout: page
+layout: default
 ---
-{% include themes/bootstrap-3/project.html %}
+{% assign gallery = site.pages | where: "layout", "gallery" | where: "short", page.gallery | first  %}
+<h2>{{page.title}} <small>(<a href="{{gallery.url}}">{{gallery.title}}</a>)</small></h2>
+
+<h3>{%for member in page.project_leaders%}
+    {% if member.email %}<a href="mailto:{{member.email}}">{{member.name}}</a>{% else %}{{member.name}}{% endif %}{% unless forloop.last %}, {% endunless %}{%endfor%}</h3>
+
+  {{content}}
+
+<h4>Details:</h4>
+
+

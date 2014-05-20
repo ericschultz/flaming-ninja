@@ -1,5 +1,21 @@
 ---
 layout: default
+headerimg: icons/newsheader.png
+headeralt: News Header Icon
+headertitle: News
 ---
 {% include JB/setup %}
-{% include themes/bootstrap-3/news.html %}
+<div>
+  <h2>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</div>
