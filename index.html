@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: page-out-of-row
 title: Outercurve Foundation
 
 ---
@@ -22,31 +22,26 @@ title: Outercurve Foundation
   </div>
   <div class="col-md-6 alt-gutter">
     <div class="homepage-block calltoaction-block">
-     <div>
-       <span><i class="the-icons icon-rocket"></i></span><br>
-       <span>Launch a New project</span><br>
-
-
-
-
+     <div class="calltoaction-section">
+       <div><i class="the-icons icon-rocket"></i></div>
+       <h2>Launch a New project</h2>
       </div>
-      <div>
+      <div class="calltoaction-section">
           <i class="the-icons icon-layout_radial"></i><br>
           <span>Join a Project</span>
       </div>
-
-
-
     </div>
 
     <div class="homepage-block news-block">
-        <div class="header"><i class="li-icon icon-newspaper"></i></div>
-        {% assign newsposts = site.posts | where: 'category', 'news' %}
+        <div class="header"><img src="{{BASE_PATH}}/img/newsheader.png"/></div>
 
-        {% for post in newsposts %}
-        <h4>{{post.title}}</h4>
+        {% for post in site.posts  %}
+        <div class="homepage-newspost">
+        <h4 class="news-block-h4">{{post.title}}</h4>
         {% if post.subtitle %}{{post.subtitle}}{% endif %}
+        {% if post.excerpt %}{{post.excerpt}}{% endif %}
         {{post.date | date_to_long_string}} | <a href="{{post.url}}">Read More</a>
+        </div>
         {% endfor %}
 
     </div>

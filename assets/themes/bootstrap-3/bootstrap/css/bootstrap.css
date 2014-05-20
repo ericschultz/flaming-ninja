@@ -571,7 +571,7 @@ a.bg-danger:hover {
   color: #fff;
   background-color: #6d4486;
 }
-.page-header > h1 {
+h1.page-header {
   margin-top: .25em;
   margin-bottom: .67em;
   margin-left: 20px;

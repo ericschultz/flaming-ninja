@@ -1,10 +1,13 @@
 ---
-layout: page_with_sidebar
+layout: page-in-row
 title: People
 img: img/icons/people.png
 group: navigation
 permalink: /people/
 navnum: 3
+headerimg: icons/people.png
+headeralt: People icon
+headertitle: People
 ---
 <div class="col-xs-9">
 
@@ -19,7 +22,7 @@ navnum: 3
       <img src="http://placekitten.com/g/100/100"/>
     </div>
     <div class="col-xs-10">
-      <h2>{{member.name}}{%if member.title%}, {{member.title}}{%endif%}{% if member.company %}, {% if member.company-link %}<a href="{{member.company-link}}">{{member.company}}</a>{% else %}{{member.company}}{% endif %}{% endif %}</h2>
+      <strong>{{member.name}}{%if member.title%}, {{member.title}}{%endif%}{% if member.company %}, {% if member.company-link %}<a href="{{member.company-link}}">{{member.company}}</a>{% else %}{{member.company}}{% endif %}{% endif %}</strong>
       <div class="bio">{% include {{person_include}} %}</div>
     </div>
   </div>
@@ -38,7 +41,7 @@ navnum: 3
       <img src="http://placekitten.com/g/100/100"/>
     </div>
     <div class="col-xs-10">
-      <h2>{{member.name}}{%if member.title%}, {{member.title}}{%endif%}{% if member.company %}, {% if member.company-link %}<a href="{{member.company-link}}">{{member.company}}</a>{% else %}{{member.company}}{% endif %}{% endif %}</h2>
+      <strong>{{member.name}}{%if member.title%}, {{member.title}}{%endif%}{% if member.company %}, {% if member.company-link %}<a href="{{member.company-link}}">{{member.company}}</a>{% else %}{{member.company}}{% endif %}{% endif %}</strong>
       <div class="bio">{% include_if_exists {{person_include}} %}</div>
     </div>
   </div>

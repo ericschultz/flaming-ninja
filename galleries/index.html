@@ -5,4 +5,16 @@ group: navigation
 permalink: /galleries/
 navnum: 2
 ---
-fafaf
+
+
+{% assign galleries = site.pages | where: "layout", "gallery"%}
+
+<h2>Galleries</h2>
+{% for gallery in galleries %}
+  {% assign num_in_gallery = site.pages | where: "gallery", gallery.short | size %}
+
+  <h3><a href="{{gallery.url}}">{{gallery.title}}</a></h3>
+  <div><strong>{{num_in_gallery}} projects</strong></div>
+  {{gallery.content}}
+
+{% endfor%}
