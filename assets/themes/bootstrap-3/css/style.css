@@ -15,10 +15,9 @@
 
 /* Jekyll Bootstrap Colors */
 
+
 footer {
-  margin-top: 55px;
-}
-footer > .container {
+     margin-top: 55px;
   border-top: 1px #A0A0A0 solid;
   color: #A0A0A0;
 
@@ -88,13 +87,22 @@ footer > .container {
 
   padding: 20px;
   color: #FFF;
-  border-bottom: #FFF 1px solid;
+  border-top: #FFF 1px solid;
+  border-right: #FFF 1px solid;
+  margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    padding-left: 20px;
 }
 
 
 
 .homepage-block > * {
   text-align: center;
+  
+}
+
+.homepage-block  .the-icons {
+    font-size: 5em;
 }
 
 .homepage-block >  .welcome-title {
@@ -117,11 +125,6 @@ footer > .container {
 
 .news-block {
   background-color: #A09FA4;
-}
-
-.alt-gutter {
-  padding-right:1px;
-  padding-left: 0;
 }
 
 .navbar {
@@ -160,4 +163,38 @@ footer > .container {
 .page-header > img { 
     float:left;
     padding-right: 20px;
+}
+
+.homepageblockrow {
+    overflow: hidden; 
+}
+
+.welcome-block a {
+    color:inherit;
+    text-decoration: inherit;
+    
+}
+
+.calltoaction-block a {
+    color:inherit;
+    text-decoration: inherit;
+}
+
+.nav-inline {
+    float:right;
+}
+
+@media (max-width:1199px){
+	.nav-inline {
+    float:none;
+    }
+
+}
+
+
+.nav-inline li {
+    display: inline;
+    line-height: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
 }

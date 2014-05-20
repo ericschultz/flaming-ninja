@@ -4,41 +4,41 @@ title: Outercurve Foundation
 
 ---
 {% include JB/setup %}
-<div class="row">
-  <div class="col-md-6 alt-gutter">
+<div class="row homepageblockrow">
+  <div class="col-md-6 alt-gutter homepage-block welcome-block">
       
-    <div class="homepage-block welcome-block">
+    <a href="{{BASE_PATH}}/what-we-do">
       <div><i class="the-icons icon-contract"></i></div>
-      <div class="welcome-title">Welcome to Outercurve!</div>
+      <h2 >Welcome to Outercurve!</h2>
       <p>Outercurve Foundation provides the operational and back office support
       to allow developers to focus on writing great code</p>
-    </div>
+    </a>
       </div>
-    <div class="col-md-6 alt-gutter">
-    <div class="homepage-block calltoaction-block">
+    <div class="col-md-6 alt-gutter homepage-block calltoaction-block">
+    
      <div class="calltoaction-section">
-       <div><i class="the-icons icon-rocket"></i></div>
+       <i class="the-icons icon-rocket"></i>
        <h2>Launch a New project</h2>
       </div>
       <div class="calltoaction-section">
           <i class="the-icons icon-layout_radial"></i><br>
-          <span>Join a Project</span>
+          <h2>Join a Project</h2>
       </div>
-    </div>
+   
         </div>
+   </div>
+<div class="row homepageblockrow">
+        <div class="col-md-6 alt-gutter homepage-block twitter-block">
     
-        <div class="col-md-6 alt-gutter">
-    <div class="homepage-block twitter-block">
         <div><i class="the-icons icon-ion-social-twitter"></i></div>
       <a class="twitter-timeline"  href="https://twitter.com/Outercurve" data-theme="light"
         data-widget-id="281241409456046080">Tweets by @Outercurve</a>
     <script>
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
     </script>
-    </div>
+    
           </div>
-   <div class="col-md-6 alt-gutter">
-       <div class="homepage-block news-block">
+   <div class="col-md-6 alt-gutter homepage-block news-block">
         <div class="header"><i class="the-icons icon-newspaper"></i></div>
 
         {% for post in site.posts  %}
@@ -51,7 +51,7 @@ title: Outercurve Foundation
         {% endfor %}
 
     </div>
-       </div>
+    
   
     
   
