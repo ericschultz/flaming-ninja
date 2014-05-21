@@ -197,4 +197,13 @@ footer {
     line-height: 20px;
     padding-right: 15px;
     padding-left: 15px;
+    background-color: inherit;
+}
+
+.nav-inline > li > a {
+    position:inherit;
+    display:inline;
+    padding:0;
+    color: inherit;
+    background-color: inherit;
 }
