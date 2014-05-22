@@ -10,5 +10,8 @@ layout: default
   {{content}}
 
 <h4>Details:</h4>
-
+<ul>
+    {%if page.projecturl %} <li><strong>Project Url: </strong><a href="{{page.projecturl}}">{{page.projecturl}}</a></li> {% endif%}
+    {% if page.license %} <li><strong>License: </strong>{{page.license}}</li> {%endif%}
+</ul>
 

@@ -67,15 +67,18 @@ theme :
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="{{ HOME_PATH }}">
-                                <img src="{{ BASE_PATH }}/img/OutercurveFullLogo.png" height="120" />
-                            </a>
+                            <a class="navbar-brand logo" href="{{ HOME_PATH }}" class="logo"></a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-right" id="jb-navbar-collapse">
                             <ul class="nav navbar-nav">
                                 {% assign pages_list = site.pages | where: 'group', 'navigation' | sort: 'navnum'%} {% assign group = 'navigation' %} {% include JB/pages_list %}
+                                
+                                {% assign pages_list = site.pages | where: 'group', 'bottomnav' | sort: 'navnum'%} 
+                                {% assign group = 'bottomnav' %} 
+                                {% assign li_class = 'bottom_in_top' %}
+                                {% include JB/pages_list %}
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -96,23 +99,35 @@ theme :
                 {{ content }}
                 
         <footer>
+            <div >
+                <div class="container">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header contact-info">
+                            Copyright 2014 by The Outercurve Foundation
+                            <br><strong>The Outercurve Foundation</strong>
+                            <br>401 Edgewater Place, Suite 600, Wakefield, MA 01880
+                            <br>ph: 781-876-6227 | fx: 781-224-1239
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-right" >
+                            <ul class="nav navbar-nav footer-nav">
+                                 <li><a href="https://twitter.com/outercurve"><i class="the-icons icon-ion-social-twitter"></i></a></li>
+                                <li><a href="{{BASE_PATH}}/about">About</a></li>
+                                <li>Something else</li>
+                                <li>a third something</li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+
+                    </nav>
+                </div>
+            </div>
             
-                <div class="row">
-                       <div class="col-md-6 col-md-push-6">
-                    <ul class="nav nav-inline">
-                        <li><i class="the-icons icon-ion-social-twitter"></i></li>
-                        <li>Something</li>
-                        <li>Something else</li>
-                        <li>a third something</li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-md-pull-6">Copyright 2014 by The Outercurve Foundation
-                    <br><strong>The Outercurve Foundation</strong>
-                    <br>401 Edgewater Place, Suite 600, Wakefield, MA 01880
-                    <br>ph: 781-876-6227 | fx: 781-224-1239
-                </div>
-             
-                </div>
+            
+               
+               
             
             </footer>
         </div>

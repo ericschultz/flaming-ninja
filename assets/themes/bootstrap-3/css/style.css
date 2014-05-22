@@ -22,7 +22,19 @@ footer {
   color: #A0A0A0;
 
   padding-top: 55px;
-  line-height: 3em;
+  
+}
+
+footer .contact-info
+{
+    line-height: 3em;
+    text-transform: none;
+}
+
+.footer-nav > li > a
+{
+    padding-top:10px;
+    
 }
 
 
@@ -180,16 +192,7 @@ footer {
     text-decoration: inherit;
 }
 
-.nav-inline {
-    float:right;
-}
 
-@media (max-width:1199px){
-	.nav-inline {
-    float:none;
-    }
-
-}
 
 
 .nav-inline li {
@@ -206,4 +209,36 @@ footer {
     padding:0;
     color: inherit;
     background-color: inherit;
+}
+
+.logo {
+    background-image: url(/img/logo-spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 502px;
+    height: 120px;
+    background-position: -5px -5px;
+    margin-top: 8px;
+    margin-bottom:8px;
+    margin-left:15px;
+}
+
+@media (max-width:767px)
+{
+    .logo
+    {
+        width: 32px;
+        height: 34px;
+        background-position: -5px -135px;
+    }
+}
+
+@media (min-width:768px)
+{
+    .logo
+    {
+        width: 502px;
+        height: 120px;
+        background-position: -5px -5px;
+    }
 }
