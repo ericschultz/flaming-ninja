@@ -1,0 +1,12 @@
+language: ruby
+before_install:
+- travis_retry gem install jekyll
+script: jekyll build
+deploy:
+  provider: openshift
+  user: eschultz@outercurve.org
+  password:
+    secure: iho3XGKrGAcXg5QH0PnmXFoNomcCHBLuYqicSqG4mrHqBS4rPRxCZDy+MWzrXizElzDIiUnfP/ZpPGVlgK0bmgMt7IJWhUe7f2kn70sRzHdIci1TBSBpc4R5kE/kH4MOjn/33+PmXy/q9lpXcFCt4c9MvV30CpV2oCgekhBTz1w=
+  domain: outercurve
+  skip_cleanup: true
+  app: root
