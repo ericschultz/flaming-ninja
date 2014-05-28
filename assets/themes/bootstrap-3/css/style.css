@@ -231,6 +231,26 @@ footer .contact-info
         height: 34px;
         background-position: -5px -135px;
     }
+    
+    
+}
+
+@media (max-width:991px)
+{
+    .navbar
+    {
+        height:auto;
+    }
+    
+    
+}
+
+@media(min-width:992px)
+{
+    li.bottom_in_top
+    {
+        display:none;
+    }
 }
 
 @media (min-width:768px)
@@ -241,4 +261,6 @@ footer .contact-info
         height: 120px;
         background-position: -5px -5px;
     }
+    
+    
 }

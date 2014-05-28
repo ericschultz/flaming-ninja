@@ -113,10 +113,10 @@ theme :
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-right" >
                             <ul class="nav navbar-nav footer-nav">
-                                 <li><a href="https://twitter.com/outercurve"><i class="the-icons icon-ion-social-twitter"></i></a></li>
-                                <li><a href="{{BASE_PATH}}/about">About</a></li>
-                                <li>Something else</li>
-                                <li>a third something</li>
+                                <li><a href="https://twitter.com/outercurve"><i class="the-icons icon-ion-social-twitter"></i></a></li>
+                                {% assign pages_list = site.pages | where: 'group', 'bottomnav' | sort: 'navnum'%} 
+                                {% assign group = 'bottomnav' %} 
+                                {% include JB/pages_list %}
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
