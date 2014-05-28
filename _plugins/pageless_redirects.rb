@@ -50,7 +50,6 @@
 # Plugin Credit: This plugin borrows heavily from alias_generator (http://github.com/tsmango/jekyll_alias_generator) by Thomas Mango (http://thomasmango.com)
 
 require 'json'
-require 'pathname'
 
 module Jekyll
 
@@ -111,11 +110,11 @@ module Jekyll
         alias_dir  = File.extname(alias_path).empty? ? alias_path : File.dirname(alias_path)
         alias_file = File.extname(alias_path).empty? ? "index.html" : File.basename(alias_path)
 
-        fs_path_to_dir   = Pathname.new(File.join(@site.dest, alias_dir)).cleanpath
+        fs_path_to_dir   = File.join(@site.dest, alias_dir)
         alias_index_path = File.join(alias_dir, alias_file)
-            
+
         FileUtils.mkdir_p(fs_path_to_dir)
-   
+
         File.open(File.join(fs_path_to_dir, alias_file), 'w') do |file|
           file.write(alias_template(destination_path))
         end
