@@ -14,6 +14,21 @@ defaults:
             gallery: "aspnet"
     -
         scope:
+            path: "projects/archive"
+        values:
+            gallery: "archive"
+    -
+        scope:
+            path: "projects/dlsi"
+        values:
+            gallery: "dlsi"
+    -
+        scope:
+            path: "projects/research"
+        values:
+            gallery: "research"
+    -
+        scope:
             path: "galleries"
         values:
             headerimg: icons/gallery.png
