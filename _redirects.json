@@ -4,5 +4,37 @@
     "/Galleries/ASPNETOpenSourceGallery": "/galleries/aspnet",
     "/Galleries/ResearchAccelerators": "/galleries/research",
     "/Galleries/DataLanguagesandSystemsInteroperability": "/galleries/dlsi",
-    "Galleries/ArchivedProjects": "/galleries/archive"
+    "/Galleries/ArchivedProjects": "/galleries/archive",
+    
+    //projects
+    "/Galleries/ArchivedProjects/NetworkMonitorParsers": "/projects/netmonparsers",
+    "/Galleries/ArchivedProjects/Mayhem": "/projects/mayhem",
+    "/Galleries/ArchivedProjects/ProjectTrident" : "/projects/trident",
+    
+    "/Galleries/ASPNETOpenSourceGallery/MVCContrib" : "/projects/mvccontrib",
+    "/Galleries/ASPNETOpenSourceGallery/OrchardProject": "/projects/orchard",
+    "/Galleries/ASPNETOpenSourceGallery/ASPNetAjaxLibrary": "/projects/ajax",
+    "/Galleries/ASPNETOpenSourceGallery/NuGet": "/projects/nuget",
+    "/Galleries/ASPNETOpenSourceGallery/WebsitePanel": "/projects/websitepanel",
+    "/Galleries/ASPNETOpenSourceGallery/WebFormsMVP": "/projects/webformsmvp",
+    "/Galleries/ASPNETOpenSourceGallery/DotNetOpenAuth": "/projects/dotnetopenauth/",
+    "/Galleries/ASPNETOpenSourceGallery/Kudu": "/projects/kudu",
+    "/Galleries/ASPNETOpenSourceGallery/NearForums": "/projects/nearforums",
+    "/Galleries/ASPNETOpenSourceGallery/LTAF": "/projects/ltaf/",
+    "/Galleries/ASPNETOpenSourceGallery/xUnitnet": "/projects/xunitnet",
+    "/Galleries/ASPNETOpenSourceGallery/OpenRIAServices": "/projects/openriaservices",
+    
+    "/Galleries/DataLanguagesandSystemsInteroperability/CoAppProject": "/projects/coapp",
+    "/Galleries/DataLanguagesandSystemsInteroperability/NetworkMonitorExperts": "/projects/netmonexperts",
+    "/Galleries/DataLanguagesandSystemsInteroperability/ODataValidationServiceTool": "/projects/odatavalidator",
+    "/Galleries/DataLanguagesandSystemsInteroperability/GADS": "/projects/gads",
+    "/Galleries/DataLanguagesandSystemsInteroperability/FacebookCSDK", "/projects/facebooksdk",
+    "/Galleries/DataLanguagesandSystemsInteroperability/NuPattern": "/projects/nupattern",
+    "/Galleries/DataLanguagesandSystemsInteroperability/WiX": "/projects/wix",
+    
+    "/Galleries/ResearchAccelerators/ConferenceXP": "/projects/conferencexp",
+    "/Galleries/ResearchAccelerators/ChemistryAddinforWord", "/projects/chem4word",
+    "/Galleries/ResearchAccelerators/NETBio": "/projects/dotnetbio",
+    "/Galleries/ResearchAccelerators/ChronoZoom": "/projects/chronozoom",
+    "/Galleries/ResearchAccelerators/DataUp": "/projects/dataup"
 }
