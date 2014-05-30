@@ -36,11 +36,14 @@ defaults:
             headertitle: Galleries
     -
         scope:
-            path: ""
-            type: post
+            path: "posts"
         values:
             layout: post
-
+    -
+        scope:
+            path: "posts/eschultz"
+        values:
+            category: eschultz
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
