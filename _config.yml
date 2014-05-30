@@ -34,6 +34,13 @@ defaults:
             headerimg: icons/gallery.png
             headeralt: Gallery icon
             headertitle: Galleries
+    -
+        scope:
+            path: ""
+            type: post
+        values:
+            layout: post
+
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
