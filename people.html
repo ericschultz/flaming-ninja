@@ -16,7 +16,7 @@ headertitle: People
   {% if member.type == 'board' %}
   {% capture person_include %}outercurve/people/{{member.short}}.html{% endcapture %}
 
-  <div class="row">
+  <div class="row bios-row">
 
     <div class="col-xs-2" >
       <img src="http://placekitten.com/g/100/100" class="img-circle"/>
@@ -35,7 +35,7 @@ headertitle: People
 
   {% if member.type == 'staff'%}
   {% capture person_include %}outercurve/people/{{member.short}}.html{% endcapture %}
-  <div class="row">
+  <div class="row bios-row">
 
     <div class="col-xs-2" >
       <img src="http://placekitten.com/g/100/100"  class="img-circle"//>
