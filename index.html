@@ -45,7 +45,7 @@ title: Outercurve Foundation
         <h4 class="news-block-h4">{{post.title}}</h4>
         {% if post.subtitle %}{{post.subtitle}}{% endif %}
         {% if post.excerpt %}<p>{{post.content | strip_html | truncatewords: 50}}</p>{% endif %}
-        {{post.date | date_to_long_string}} | <a href="{{post.url}}">Read More</a>
+        {{post.date | date: "%B %e, %Y" }} | <a href="{{post.url}}">Read More</a>
         </div>
         {% endfor %}
 
