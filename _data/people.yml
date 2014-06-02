@@ -21,3 +21,17 @@
   type: staff
   title: Developer Advocate
   short: eschultz
+
+- name: Sam Ramji
+  type: board
+  title: Board Secretary
+  company: Apigee Corp.
+  company-link: "https://apigee.com"
+  short: sramji
+
+- name: Gianugo Rabellino
+  type: board
+  title: Board Treasurer
+  company: Microsoft Open Technologies
+  company-link: "http://msopentech.com/"
+  short: grabellino
