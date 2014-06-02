@@ -5,5 +5,7 @@ script: jekyll build
 deploy:
   provider: heroku
   api_key:
-    secure: qq5EvO71i4DFFMV1Q11TNdD+nm0HQwYfNaiKxyfzzjvZP4dUljdurRBGHzZvWtNzXC4YL1uX7Vrkmt6adsa6S5FrQq7guX9jY3Sh2f3DHYr51/vZam2PFn+VxWg9BQ2Xg+EAhT/785qNPUuSy+zf5T/Vh5MDheHXVAmf9DRYS+0=
+    secure: C8ose4cx3uCwCRih1ZVQCml+VGnxrWePC+h7ZeWzKkEsDGHYRQEPD3oeHgcjKPAm8qWVNQyedktgGtaEGFptkF++IieAX/f8gLLhIpGYMBNDGY2qhH/LAJX8Cj1wcG0Qkt9VTaFUkfqWz2g/En2X2jsxClR05+F3t+W6Us07sC0=
   app: frozen-lake-3397
+  on:
+    repo: ericschultz/flaming-ninja
