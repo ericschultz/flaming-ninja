@@ -3,7 +3,9 @@ before_install:
 - travis_retry gem install jekyll
 script: jekyll build
 deploy:
-  provider: heroku
-  api_key:
-    secure: qq5EvO71i4DFFMV1Q11TNdD+nm0HQwYfNaiKxyfzzjvZP4dUljdurRBGHzZvWtNzXC4YL1uX7Vrkmt6adsa6S5FrQq7guX9jY3Sh2f3DHYr51/vZam2PFn+VxWg9BQ2Xg+EAhT/785qNPUuSy+zf5T/Vh5MDheHXVAmf9DRYS+0=
-  app: frozen-lake-3397
+  provider: openshift
+  user: eschultz@outercurve.org
+  password:
+    secure: iho3XGKrGAcXg5QH0PnmXFoNomcCHBLuYqicSqG4mrHqBS4rPRxCZDy+MWzrXizElzDIiUnfP/ZpPGVlgK0bmgMt7IJWhUe7f2kn70sRzHdIci1TBSBpc4R5kE/kH4MOjn/33+PmXy/q9lpXcFCt4c9MvV30CpV2oCgekhBTz1w=
+  domain: outercurve
+  app: jekylltest
