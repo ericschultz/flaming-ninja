@@ -10,3 +10,4 @@ deploy:
   domain: outercurve
   skip_cleanup: true
   app: root
+  edge: true
