@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Participate in a Project
-group: navigation
 headertitle: Participate in a Project
 alias: "/Participate/ContributetoaProject"
 ---
