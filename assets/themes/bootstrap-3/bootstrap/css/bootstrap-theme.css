@@ -468,4 +468,50 @@ footer .contact-info {
     background-position: -5px -5px;
   }
 }
+.calltoaction_header {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  color: #fff;
+  background-color: #6d4486;
+}
+.calltoaction_header + p {
+  padding: 15px;
+  color: #000;
+  background-color: #e4dce8;
+}
+.calltoaction_header > div {
+  display: table-cell;
+}
+.calltoaction_header > div > i {
+  width: auto;
+  height: auto;
+  font-size: 5em;
+  vertical-align: middle;
+}
+.calltoaction_header > div > span {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.calltoaction_header > div > a {
+  color: white;
+  text-decoration: none;
+}
+.calltoaction_header > div > a:link {
+  color: white;
+  text-decoration: none;
+}
+.calltoaction_header > div > a:hover {
+  color: white;
+  text-decoration: none;
+}
+.calltoaction_header > div > a:visited {
+  color: white;
+  text-decoration: none;
+}
+.calltoaction_header > div > a:active {
+  color: white;
+  text-decoration: none;
+}
 /*# sourceMappingURL=bootstrap-theme.css.map */
