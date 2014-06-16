@@ -39,6 +39,32 @@ defaults:
             path: "posts"
         values:
             layout: post
+            
+    - 
+        scope: 
+            path: "posts/bartz"
+        values:
+            category: "bartz"
+
+    - 
+        scope: 
+            path: "posts/bleroy"
+        values:
+            category: "bleroy"
+
+    - 
+        scope: 
+            path: "posts/haack"
+        values:
+            category: "haack"
+
+    - 
+        scope: 
+            path: "posts/sramji"
+        values:
+            category: "sramji"
+
+    
     -
         scope:
             path: "posts/eschultz"
