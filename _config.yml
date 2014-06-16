@@ -48,9 +48,9 @@ defaults:
 
     - 
         scope: 
-            path: "posts/bleroy"
+            path: "posts/bmillington"
         values:
-            category: "bleroy"
+            category: "bmillington"
 
     - 
         scope: 
