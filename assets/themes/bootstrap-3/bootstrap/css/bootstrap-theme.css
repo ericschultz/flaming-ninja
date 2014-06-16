@@ -494,23 +494,23 @@ footer .contact-info {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-.calltoaction_header > div > a {
+.calltoaction_header > div > span > a {
   color: white;
   text-decoration: none;
 }
-.calltoaction_header > div > a:link {
+.calltoaction_header > div > span > a:link {
   color: white;
   text-decoration: none;
 }
-.calltoaction_header > div > a:hover {
+.calltoaction_header > div > span > a:hover {
   color: white;
   text-decoration: none;
 }
-.calltoaction_header > div > a:visited {
+.calltoaction_header > div > span > a:visited {
   color: white;
   text-decoration: none;
 }
-.calltoaction_header > div > a:active {
+.calltoaction_header > div > span > a:active {
   color: white;
   text-decoration: none;
 }
