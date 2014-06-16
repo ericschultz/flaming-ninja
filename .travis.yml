@@ -10,3 +10,5 @@ deploy:
   domain: outercurve
   skip_cleanup: true
   app: root
+  on:
+    branch: release
