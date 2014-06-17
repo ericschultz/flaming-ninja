@@ -69,8 +69,6 @@ defaults:
             path: "posts/guest"
         values:
             category: "guest"
-    
-    
     - 
         scope: 
             path: "posts/haack"
