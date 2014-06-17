@@ -1,9 +1,9 @@
 language: ruby
 before_install:
 - travis_retry gem install jekyll
+- sudo rm /etc/apt/sources.list.d/git-ppa-source.list
+- sudo apt-get remove git && sudo apt-get remove git-man && sudo apt-get install git-man && sudo apt-get install git
 script: jekyll build
-before_deploy:
-- git fetch --unshallow
 deploy:
   provider: openshift
   user: eschultz@outercurve.org
