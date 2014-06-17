@@ -58,13 +58,13 @@ defaults:
         values:
             category: "bmillington"
     
-     -
+    -
         scope:
             path: "posts/eschultz"
         values:
             category: eschultz
     
-     - 
+    - 
         scope: 
             path: "posts/guest"
         values:
@@ -83,7 +83,7 @@ defaults:
         values:
             category: "news"
 
-     - 
+    - 
         scope: 
             path: "posts/phunter"
         values:
@@ -101,19 +101,19 @@ defaults:
         values:
             category: "sramji"
 
-     - 
+    - 
         scope: 
             path: "posts/ssakellariadis"
         values:
             category: "ssakellariadis"
     
-     - 
+    - 
         scope: 
             path: "posts/staff"
         values:
             category: "staff"
     
-     - 
+    - 
         scope: 
             path: "posts/swalli"
         values:
