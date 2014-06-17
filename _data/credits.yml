@@ -1,0 +1,38 @@
+- name: Jekyll
+  url: https://github.com/jekyll
+  license: MIT
+
+- name: Jekyll Bootstrap
+  url: https://github.com/plusjade/jekyll-bootstrap/
+  license: MIT
+
+- name: Bootstrap
+  url: https://github.com/twbs/bootstrap
+  license: MIT
+
+- name: Alias Generator for Posts
+  url: http://github.com/tsmango/jekyll_alias_generator
+  license: MIT
+
+- name: Pageless Redirects
+  url: https://github.com/nquinlan/jekyll-pageless-redirects
+  license: MIT
+
+- name: Ionicons
+  url: https://github.com/driftyco/ionicons
+  license: MIT
+
+- name: MFG Labs
+  url: http://www.mfglabs.com/
+  license: SIL
+  disclaimer: Copyright (C) 2012 by Daniel Bruce
+
+- name: Font Awesome
+  url: http://fortawesome.github.com/Font-Awesome/
+  license: SIL
+  disclaimer: Copyright (C) 2012 by Dave Gandy
+
+- name: Entypo
+  url: http://www.entypo.com
+  license: CC BY-SA
+  disclaimer: Copyright (C) 2012 by Daniel Bruce
