@@ -39,11 +39,87 @@ defaults:
             path: "posts"
         values:
             layout: post
+            
+    - 
+        scope: 
+            path: "posts/bartz"
+        values:
+            category: "bartz"
+
+    - 
+        scope: 
+            path: "posts/bleroy"
+        values:
+            category: "bleroy"
+            
+    - 
+        scope: 
+            path: "posts/bmillington"
+        values:
+            category: "bmillington"
+    
     -
         scope:
             path: "posts/eschultz"
         values:
             category: eschultz
+    
+    - 
+        scope: 
+            path: "posts/guest"
+        values:
+            category: "guest"
+    
+    
+    - 
+        scope: 
+            path: "posts/haack"
+        values:
+            category: "haack"
+            
+    - 
+        scope: 
+            path: "posts/news"
+        values:
+            category: "news"
+
+    - 
+        scope: 
+            path: "posts/phunter"
+        values:
+            category: "phunter"
+    
+    - 
+        scope: 
+            path: "posts/robmen"
+        values:
+            category: "robmen"
+
+    - 
+        scope: 
+            path: "posts/sramji"
+        values:
+            category: "sramji"
+
+    - 
+        scope: 
+            path: "posts/ssakellariadis"
+        values:
+            category: "ssakellariadis"
+    
+    - 
+        scope: 
+            path: "posts/staff"
+        values:
+            category: "staff"
+    
+    - 
+        scope: 
+            path: "posts/swalli"
+        values:
+            category: "swalli"
+    
+ 
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
