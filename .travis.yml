@@ -2,6 +2,8 @@ language: ruby
 before_install:
 - travis_retry gem install jekyll
 script: jekyll build
+before_deploy:
+- git fetch --unshallow
 deploy:
   provider: openshift
   user: eschultz@outercurve.org
