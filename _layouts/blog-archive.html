@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% assign our_posts = site.categories[page.shortname] %}
+{% for post in our_posts   %}
+{% include outercurve/blog-entry.html %}
+{% endfor %}

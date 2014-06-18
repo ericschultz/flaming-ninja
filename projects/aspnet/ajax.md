@@ -7,4 +7,4 @@ project_leaders:
 projecturl: http://ajax.codeplex.com
 license: BSD
 ---
-NuGet is a free, open source, package management system for the .NET platform. It enables .NET developers to easily discover, download, install and update packages into Visual Studio projects including any dependencies the packages may have through an ATOM based feed. A package can consist of source code, compiled code, files, configuration and more.
+The ASP.NET Ajax Library Beta enables you to build database-driven web applications that execute entirely in the web browser. The library supports client data access, client templates, and client data-binding. The library also contains the more than 40 controls (e.g. autocomplete, mask edit, etc.) that were originally released as part of the Ajax Control Toolkit.
