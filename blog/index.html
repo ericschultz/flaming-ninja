@@ -11,3 +11,9 @@ title: Outercurve Blogs
         {{post.date | date: "%B %e, %Y" }} | <a href="{{post.url}}">Read More</a>
         </div>
 {% endfor %}
+
+{% assign blogs  = site.pages | where: "layout", "blog-archive"%}
+
+{% for ourblog in blogs %}
+<p><a href="{{ourblog.url}}">{{ourblog.title}}</a></p>
+{% endfor %}

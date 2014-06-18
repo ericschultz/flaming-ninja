@@ -1,0 +1,24 @@
+---
+title: Credits
+layout: page
+headertitle: Credits
+group: bottomnav
+navnum: 9999
+---
+<p>Copyright 2014 Outercurve Foundation</p>
+<h4>License</h4>
+<ul>
+    <li>Content: CC-BY </li>
+    <li>Code: MIT</li>
+</ul>
+
+<h4>Credits</h4>
+<p>Like all open source software, the Outercurve website could not have succeeded without the help of numerous projects. The Outercurve uses the following contents:</p>
+{% for l in site.data.credits %}
+<h5>{{l.name}}</h5>
+<ul>
+    <li>{{l.license}}</li>
+    <li><a href="{{l.url}}">{{l.url}}</a></li>
+    {% if l.disclaimer %}<li>{{l.disclaimer}}</li>{% endif %}
+</ul>
+{% endfor %}
