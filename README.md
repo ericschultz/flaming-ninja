@@ -29,7 +29,8 @@ For Big Features or major API extensions/edits:
 This is the one case where I'll accept pull-requests based off the master branch.
 This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
 Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
+ testing
+ 
 **Jekyll-Bootstrap Documentation Website.**
 
 The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
