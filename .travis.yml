@@ -14,3 +14,4 @@ deploy:
   app: root
   on:
     branch: new_test
+    deployment_branch: master
