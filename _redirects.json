@@ -42,6 +42,7 @@
     "/Codeplex_Foundation_Contribution_Agreement.pdf": "/assets/files/OutercurveFoundationContributionAgreement-editable.pdf",
     "/CPF_Project_Acceptance_and_Operation-DRAFT.pdf": "/participate/project_proposals.html",
     "/galleries.aspx": "/galleries",
+<<<<<<< HEAD
     "/About.aspx": "/about",
     "/participate.aspx": "/participate",
     "/faq-mission.aspx": "/about",
@@ -53,3 +54,9 @@
 
 
 }
+=======
+    "/About.aspx": "/about",
+
+    "/About/DevelopmentPractices": "/resources/development_practices.html"
+}
+>>>>>>> fd7c999fd80d5a93d0102fc9cc1da0b26d2470a0
