@@ -22,9 +22,9 @@ alias: /Blogs/EntryId/143/-Strong-naming-I-Do-Not-Think-It-Means-What-You-Think-
     </li>
 </ul>
 <p>To get started, build your solution. Then from a command prompt go to the StrongNameVerification\bin\Debug directory and run StrongNameVerification.exe. The result should look like the command prompt below:</p>
-<p><img alt="" src="/Portals/0/images/blog/eric/valid.png" />&nbsp;</p>
+<p><img alt="" src="/img/old/blog/eric/valid.png" />&nbsp;</p>
 <p>Now, without building again, run "../../../HackStrongNamedDll.exe Test.dll" and then run StrongNameVerification.exe again:</p>
-<p><img alt="" src="/Portals/0/images/blog/eric/icky.png" />&nbsp;</p>
+<p><img alt="" src="/img/old/blog/eric/icky.png" />&nbsp;</p>
 <p>Uh oh. Our string, which should have been "I'm valid!" is now "I'm icky!!" Of course in this case, the change is unimportant but what if that was a URL or a connection string for a database? Additionally, there's nothing preventing a change in the IL code in the assembly, I simply chose a string to make it easy to modify.</p>
 <p>If you're like me, you're probably thinking "but I was POSITIVE the .Net Framework verified the integrity of strong-named assemblies." Well it turns out, that it used to by default but doesn't anymore. Starting in .Net Framework 3.5 SP1, strong-name verification is <a href="http://blogs.msdn.com/b/shawnfa/archive/2008/05/14/strong-name-bypass.aspx">turned off by default</a> for most situations. Startup performance for .Net applications increases substantially if you don't have to verify the hash on every assembly, so the decision was made to make the verification opt-in for the most common situations.</p>
 <p>There are still a few situations where strong-name verification is performed by default. The most notable situation is installing an assembly in the GAC. That said, you STILL can't trust that an assembly in the GAC hasn't been tampered with! That's because even though assemblies are verified on installation, they're not verified when loaded from the GAC. If you'd like to prove it for yourself, install a clean version of Test.dll into the GAC, run HackStrongNamedDll.exe with the path into the GAC containing Test.dll and run StrongNameVerification.exe again.</p>

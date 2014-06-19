@@ -46,6 +46,7 @@
     "/About.aspx": "/about",
     "/participate.aspx": "/participate",
     "/faq-mission.aspx": "/about",
+    "/board-of-directors.aspx" : "/people",
     "/Codeplex_Foundation_Bylaws.pdf": "/assets/files/OutercurveFoundationBylaws-2010-10-28.pdf",
     "/CPF_Project_Acceptance_and_Operation-DRAFT.pdf": "/participate/project_proposals.html",
 
