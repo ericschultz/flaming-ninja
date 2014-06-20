@@ -35,3 +35,31 @@
   company: Microsoft Open Technologies
   company-link: "http://msopentech.com/"
   short: grabellino
+
+- name: Dave Neary
+  type: mentor
+  short: dneary
+
+- name:  Ilan Rabinovitch
+  type: mentor
+  short: irabinovitch
+
+- name: Jeremy Garcia
+  type: mentor
+  short: jgarcia
+
+- name: Leslie Hawthorn
+  type: mentor
+  short: lhawthorn
+
+- name: Phil Haack
+  type: mentor
+  short: phaack
+
+- name: Ross Gardler
+  type: mentor
+  short: rgardler
+
+- name: Taiwen Jiang (aka DJ)
+  type: mentor
+  short: tjiang

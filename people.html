@@ -48,6 +48,24 @@ alias: "/blog/2009/09/10/CodePlex-Foundation-is-Formed/board-of-directors.aspx"
   </div>
   {% endif %}
   {% endfor %}
+
+  <h2 id="mentors">Mentors</h2>
+    {% for member in site.data.people %}
+
+    {% if member.type == 'mentor'%}
+    {% capture person_include %}outercurve/people/{{member.short}}.html{% endcapture %}
+    <div class="row bios-row">
+  <!--
+      <div class="col-xs-2" >
+        <img src="http://placekitten.com/g/100/100"  class="img-circle"//>
+      </div> -->
+      <div class="col-xs-12">
+        <strong>{{member.name}}{%if member.title%}, {{member.title}}{%endif%}{% if member.company %}, {% if member.company-link %}<a href="{{member.company-link}}">{{member.company}}</a>{% else %}{{member.company}}{% endif %}{% endif %}</strong>
+        <div class="bio">{% include_if_exists {{person_include}} %}</div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
 </div>
 
 
