@@ -109,15 +109,19 @@ defaults:
         scope: 
             path: "posts/staff"
         values:
+
             category: "staff"
     
     - 
         scope: 
             path: "posts/swalli"
         values:
-            category: "swalli"
-    
- 
+            category: "swalli"		
+    -
+        scope:
+            path: participate
+        values:
+            layout: page
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/

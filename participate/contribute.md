@@ -4,14 +4,13 @@ title: Participate in a Project
 headertitle: Participate in a Project
 alias: "/Participate/ContributetoaProject"
 ---
-The Foundation projects are organized under four Galleries:
+The Foundation projects are organized under three Galleries:
 
-ASP.NET Open Source Gallery
+[ASP.NET Open Source Gallery](/galleries/aspnet/)
 
-Systems Infrastructure and Integration gallery (SIIG)
+[Data, Languages, and Systems Interoperability Gallery](/galleries/dlsi)
 
-Research Accelerators Gallery
-Innovators Gallery
+[Research Accelerators Gallery](/galleries/research)
 
 You may find an Outercurve project that is addressing a technology challenge that is important to you. Projects are only as strong as their community and our project leaders welcome new contributors to their projects. Each project has the flexibility to create its own web site, determine the open source software license that applies to the project, and which forge will host the code.
 
