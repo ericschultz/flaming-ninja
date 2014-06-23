@@ -7,4 +7,6 @@ env:
   - secure: op4JvGhwe8lNk0NInVpbdwgIAgrSLzO16gV+mUSPAoo8NX2sjcaLONQOV/hayf8ztb/w6RUYw29TFFARBekVu+A/r2lG6msYWFYmvLS8nk/N0Q3rQgnbJoTLKv1r3gjts9h2A46arZHx1U0tfcWLFRc50mN+IHyH49ISoYBT82w=
   - secure: fF2D8XKKbifslsYwKgnKZkRI6P8TfbDGmxYq0edBj75GjdAKryMXvEI4Ir153UTc2aKqTAqp2I+6rOV590UM8ZFYV1lV9Dj+Qt3IVBx9eth48Du6aYAUjSbI8iApXqYbYJa4Vn8qjxCdmxhAzMb4XA9utR1kEsPcsdtt0C4Apak=
 after_success:
-	-"find _site -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.outercurve.org/preview.outercurve.org/web/content/{} \"
+	- if [[ "$TRAVIS_BRANCH" == "release" ]]; then find _site -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.outercurve.org/preview.outercurve.org/web/content/{} \
+	; fi
+	
