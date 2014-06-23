@@ -4,7 +4,7 @@ title: Resources
 group: bottomnav
 permalink: /resources/
 navnum: 5
-headertitle: What We Do
+headertitle: Resources
 ---
 
 
