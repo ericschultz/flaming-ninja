@@ -3,7 +3,7 @@ layout: page
 title: Resources
 group: navigation
 permalink: /resources/
-navnum: 4
+navnum: 5
 headertitle: What We Do
 ---
 

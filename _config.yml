@@ -70,6 +70,11 @@ defaults:
             path: "posts/eschultz"
         values:
             category: eschultz
+    -
+        scope:
+            path: participate
+        values:
+            layout: page
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
