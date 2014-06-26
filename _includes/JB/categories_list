@@ -30,7 +30,7 @@ Usage:
     {% endfor %}
   {% else %}
     {% for category in categories_list %} 
-		{% unless category == "posts" %}
+		{% unless category[0] == "posts" %}
 			<li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
 				{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>
 			</a></li>
