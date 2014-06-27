@@ -44,6 +44,6 @@
     "/galleries.aspx": "/galleries",
     "/About.aspx": "/about",
     
-    "/About/DevelopmentPractices": "/resources/development_practices.html"
+    "/About/DevelopmentPractices": "/resources/development_practices.html",
 	"/OutercurveFullLogo.svg": "/assets/files/OutercurveFullLogo.svg"
 }
