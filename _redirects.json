@@ -52,8 +52,7 @@
 
     "/Portals/0/docs/Outercurve%20Foundation%20Contribution%20Agreement%20(editable).pdf": "/assets/files/OutercurveFoundationContributionAgreement-editable.pdf",
     "/Portals/0/docs/Outercurve%20Foundation%20Assignment%20Agreement%20(editable).pdf": "/assets/files/OutercurveFoundationAssignmentAgreement-editable.pdf",
-
-
-
-    "/About/DevelopmentPractices": "/resources/development_practices.html"
+    
+    "/About/DevelopmentPractices": "/resources/development_practices.html",
+	"/OutercurveFullLogo.svg": "/assets/files/OutercurveFullLogo.svg"
 }
