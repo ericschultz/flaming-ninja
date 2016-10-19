@@ -1,0 +1,46 @@
+---
+title: "Tips and Tricks on NuGet Packaging for .NET Developers "
+alias: /Blogs/EntryId/107/Tips-and-Tricks-on-NuGet-Packaging-for-NET-Developers
+---
+<p>Hi,</p>
+Recently i have the chance to work NuGet, NuGet is an open source Packaging Server and set of tools that you can use to package your work within an organization for distribution or publicly upload your packages to nuget.org to be utilized by all developers.<br />
+<br />
+<strong>First</strong>, You need to create a website to be accessible by all developers, and then upload or install NuGet server package to it. NuGet Server at the end of the day is a website that holds all your packages.<br />
+<br />
+<span style="text-decoration: underline;"><strong>To host your NuGet Packages in a server:</strong></span><br />
+<br />
+1) Open your VS 2012 or 2013 and then create an empty web application.<br />
+2) Open the Package Console window and install-Package NuGet.Server, this command will install all server components.<br />
+3) By Default, you can once you know how to create nuget packages, you need to push it to the packages folder that will be created for your once you install the NuGet Server packages.<br />
+4) There are some cool features once you open the web.config, such as the key you need to publish nuget packages.<br />
+5) Basically, that's all from the server perspective.<br />
+<br />
+<strong>Second</strong>, you need to know how to author or design nuget packages, what you need to do, install the Nuget Package Explorer from this url:&nbsp;<a href="http://npe.codeplex.com/">http://npe.codeplex.com/</a><br />
+<br />
+Once you install this ClickOnce Windows Application, you will be able to create, design and deploy nuget to the server we just mentioned earlier.<br />
+<br />
+<strong><span style="text-decoration: underline;">Some tips to create nuget packages using NuGet Package Explorer:</span></strong><br />
+1) You have to set all your dlls in the lib folder, since all these dlls will be added to the references once you install the package.<br />
+2) To add the lib folder to your package, right click on the right pane and then select lib folder.<br />
+3) You can add dlls to your lib folder by dragging and dropping the dlls to the lib folder in the right pane.<br />
+4) You can set any content under content folder such as: images or any required files are needed for any application to utilize your nuget packages.<br />
+<br />
+5) Under lib folder you can different target .NET frameworks such as: .NET 4.0, .NET 4.5<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;"><a style="margin-right: 1em; margin-left: 1em;" href="http://2.bp.blogspot.com/-3F7Dg_WdjF4/UmGQ5kyIjoI/AAAAAAAABHY/fg8rwvl1ctg/s1600/DesignNugetPackage2.PNG"><img alt="" height="209" width="320" style="border-width: 0px; border-style: solid;" src="http://2.bp.blogspot.com/-3F7Dg_WdjF4/UmGQ5kyIjoI/AAAAAAAABHY/fg8rwvl1ctg/s320/DesignNugetPackage2.PNG" /></a></div>
+<br />
+<br />
+6) The nuget is referring to the target .NET frameworks as follows: net40 to refer to .NET 4.0 and net45 referring to .NET 4.5.<br />
+7) Once you save all your referencing dlls, content and .net &amp; nuget packages dependencies, you just need to save the nuget file and then from the file menu item publish to the nuget server.<br />
+8) You can even add powershell files when you install, un install and when every time you open VS project which is the purpose of init.ps1.<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;"><a style="margin-right: 1em; margin-left: 1em;" href="http://4.bp.blogspot.com/-OR32C28rRew/UmGPUEu9AyI/AAAAAAAABHQ/EhlffnXs0AQ/s1600/DesignNugetPackage.PNG"><img alt="" height="209" width="320" style="border-width: 0px; border-style: solid;" src="http://4.bp.blogspot.com/-OR32C28rRew/UmGPUEu9AyI/AAAAAAAABHQ/EhlffnXs0AQ/s320/DesignNugetPackage.PNG" /></a></div>
+<br />
+NuGet Documentation:&nbsp;<a href="http://docs.nuget.org/">http://docs.nuget.org/</a><br />
+<br />
+<p>
+Hope this helps, let me know if you have any questions.</p>
+<p>&nbsp;</p>
+<p><em>Mostafa Elzghbi, former Microsoft MVP, is a M.Sc. of Computer Science and INETA User group lead,SharePoint Speaker, and Solutions Architect. <br />
+Link to original posting:<a href="http://moustafa-arafa.blogspot.com/2013/10/tips-and-tricks-on-nuget-packaging-for.html"> http://moustafa-arafa.blogspot.com/2013/10/tips-and-tricks-on-nuget-packaging-for.html</a></em>&nbsp;</p>
